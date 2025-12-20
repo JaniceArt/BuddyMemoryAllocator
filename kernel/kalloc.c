@@ -170,3 +170,4 @@ kalloc(void)
   release(&kmem.lock);
   return 0; // Hết bộ nhớ (Out of Memory)
 }
+
